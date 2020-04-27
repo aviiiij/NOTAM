@@ -5,15 +5,11 @@
 
 <div align="center">
 
-
 [![made-with-python](https://forthebadge.com/images/badges/made-with-python.svg)](https://www.python.org/)
 
 [![made-with-javascript](https://forthebadge.com/images/badges/made-with-javascript.svg)](https://www.javascript.org/)
 
-
 <br>
-
-
 
 </div>
 
@@ -28,6 +24,7 @@
 > This project does not require any proprietary API or product. 
 
 ##### Web-App
+
 <div align = "center">
 <img src="./assets/notamlogin.png" width=600px/>
 <br/><br/>
@@ -43,37 +40,52 @@
 ------------------------------------------
 
 ### Features
-- [x] Simplified, parameterized creation of NOTAMs
-- [x] Instant and easy access to all published NOTAMs
-- [x] Automatic map view generation whenever applicable.
-- [x] Automatic highlighting of various parts of the aerodrome such as runways, taxiways etc whenever they are closed or unserviceable.
-- [x] Search and sorting of NOTAMs based on user input.
-- [x] Two step verification for administrator login.
 
-
-
-
+* [x] Simplified, parameterized creation of NOTAMs
+* [x] Instant and easy access to all published NOTAMs
+* [x] Automatic map view generation whenever applicable.
+* [x] Automatic highlighting of various parts of the aerodrome such as runways, taxiways etc whenever they are closed or unserviceable.
+* [x] Search and sorting of NOTAMs based on user input.
+* [x] Two step verification for administrator login.
 
 ------------------------------------------
+
+### Installation and Deployment
+
+
+Using Docker
+
+``` sh
+docker build ./webapp/ -t notam
+docker run -p 5000:5000 notam
+```
+
+Using Python
+
+``` python
+python3 ./webapp/run.py
+```
+
+------------------------------------------
+
 ### Contributing
+
  We're are open to `enhancements` & `bug-fixes` :smile: Also do have a look [here](./CONTRIBUTING.md)
 
 ### Note
 
- This project was done under `36 hours with minimal pre-preparation`
-
+ This project was done under `36 hours with minimal pre-preparation` 
 
 ------------------------------------------
+
 ### Contributors
 
-
-- [@Korusuke](https://github.com/Korusuke)
-- [@Rusherrg](https://github.com/RusherRG)
-- [@hetzz](https://github.com/hetzz)
-- [@Syn3rman](https://github.com/Syn3rman)
-- [@akshay-99](https://github.com/akshay-99)
-- [@aviiiij](https://github.com/aviiij)
-
+* [@Korusuke](https://github.com/Korusuke)
+* [@Rusherrg](https://github.com/RusherRG)
+* [@hetzz](https://github.com/hetzz)
+* [@Syn3rman](https://github.com/Syn3rman)
+* [@akshay-99](https://github.com/akshay-99)
+* [@aviiiij](https://github.com/aviiij)
 
 ------------------------------------------
 
